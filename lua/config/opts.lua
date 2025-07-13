@@ -17,6 +17,8 @@ vim.opt.backupdir = os.getenv("HOME") .. '/.local/nvim/backup//'
 vim.opt.undofile = true
 vim.opt.undodir = os.getenv("HOME") .. '/.local/nvim/undo//'
 
+vim.diagnostic.config({ virtual_text = true })
+
 --vim.opt.hlsearch = false
 --vim.opt.incsearch = true
 
