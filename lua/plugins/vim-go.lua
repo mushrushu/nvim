@@ -1,4 +1,6 @@
-return { 
-	"fatih/vim-go",
-	enabled = false
+return {
+    "fatih/vim-go",
+    enabled = true,
+    event = {"CmdlineEnter"},
+    ft = {"go", 'gomod'},
 }
